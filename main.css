@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.content {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(146, 144, 144);
+    color: white;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
